@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "GitDiagram Opener",
+    "version": "1.0",
+    "description": "Open gitdiagram.com for current GitHub repo",
+    "permissions": ["tabs", "scripting"],
+    "action": {
+      "default_title": "Open in GitDiagram",
+      "default_icon": "icon.png"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "host_permissions": ["https://github.com/*"]
+  }
+  
