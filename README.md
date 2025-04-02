@@ -1,2 +1,2 @@
 # gitdiagram-extension
-one-click to show the UML diagram of current git repository
+A chrome extension. One click to turn your GitHub repo into a UML diagram. No setup, just clarity.
